@@ -2,6 +2,12 @@
 @import "left.css";
 @import "right.css";
 
+html, body{
+    height: 100%;
+}
+
 body {
+    background: #353B43;
+    position: relative;
     display: flex;
 }

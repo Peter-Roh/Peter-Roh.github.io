@@ -1,15 +1,16 @@
-html, body{
-    height: 100%;
-}
 .left{
     background-color: #242930;
-    width: 30%;
-    position: relative;
+    position: fixed;
+    z-index: 999;
+    width: 17%;
+    height: 100%;
+    text-align: center;
     color: white;
 }
 
-.left .profile-img{
-    width: 250px;
+.left .profile .profile-img{
+    width: 60%;
     border-radius: 55%;
-    border: 10px solid #57CC8A;
+    border: 8px solid #57CC8A;
+    margin-top: 10%;
 }
