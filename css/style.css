@@ -1,0 +1,7 @@
+@import "reset.css";
+@import "left.css";
+@import "right.css";
+
+body {
+    display: flex;
+}

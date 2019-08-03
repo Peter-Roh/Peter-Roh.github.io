@@ -1,0 +1,15 @@
+html, body{
+    height: 100%;
+}
+.left{
+    background-color: #242930;
+    width: 30%;
+    position: relative;
+    color: white;
+}
+
+.left .profile-img{
+    width: 250px;
+    border-radius: 55%;
+    border: 10px solid #57CC8A;
+}
