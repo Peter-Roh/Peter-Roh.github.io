@@ -6,11 +6,22 @@
     height: 100%;
     text-align: center;
     color: white;
+    line-height: 1.4;
 }
 
 .left .profile .profile-img{
     width: 60%;
     border-radius: 55%;
-    border: 8px solid #57CC8A;
+    border: 8px solid #ff5252;
     margin-top: 10%;
+}
+
+#name{
+    margin-top: 8%;
+    font-size: xx-large;
+}
+
+#info{
+    margin-top: 8%;
+    color: #A5B5C4;
 }
