@@ -12,7 +12,7 @@
 .left .profile .profile-img{
     width: 60%;
     border-radius: 55%;
-    border: 8px solid #ff5252;
+    border: 6px solid #30336b;
     margin-top: 10%;
 }
 
@@ -24,4 +24,19 @@
 #info{
     margin-top: 8%;
     color: #A5B5C4;
+}
+
+#github{
+    margin-top: 8%;
+    font-size: 4em;
+}
+
+#linked-in{
+    margin-left: 10px;
+    font-size: 4em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
