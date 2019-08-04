@@ -2,7 +2,7 @@
     background-color: #242930;
     position: fixed;
     z-index: 999;
-    width: 17%;
+    width: 20%;
     height: 100%;
     text-align: center;
     color: white;
@@ -24,6 +24,7 @@
 #info{
     margin-top: 8%;
     color: #A5B5C4;
+    font-size: 17px;
 }
 
 #github{
@@ -39,4 +40,9 @@
 a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
+}
+
+#email{
+    color: #A5B5C4;
 }

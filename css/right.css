@@ -5,12 +5,18 @@
     justify-content: center;
     text-align: center;
     color: white;
-    width: 83%;
+    width: 80%;
 }
 
-/*.right .box_one{
+.menu{
+    text-align: right;
+    margin-top: 3%;
+    font-size: 30px;
+}
+
+.right .box{
     background-color: red;
     height: 150px;
     width: 30%;
     margin-left: 50px;
-}*/
+}
