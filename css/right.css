@@ -31,6 +31,11 @@ button{
     margin-left: 7%;
 }
 
+#skill_icon{
+    font-size: 150px;
+    padding: 50px;
+}
+
 /*.right .box{
     background-color: red;
     height: 150px;
