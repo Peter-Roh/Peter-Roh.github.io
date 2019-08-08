@@ -27,11 +27,13 @@ button{
     border-radius: 10px;
 }
 
+#page{
+    margin-left: 7%;
+}
+
 /*.right .box{
     background-color: red;
     height: 150px;
     width: 30%;
     margin-left: 50px;
 }*/
-
-/*text 가리는거 고치기*/
