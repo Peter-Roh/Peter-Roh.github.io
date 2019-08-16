@@ -19,6 +19,7 @@
 }
 
 button{
+    font-family: 'Pacifico', cursive;
     width: 120px;
     height: 35px;
     background-color: #0984e3;
@@ -46,6 +47,7 @@ br{
 }
 
 #page_lang{
+    font-family: 'Bree Serif', serif;
     text-align: left;
     margin-left: 7%;
     font-size: 28px;
@@ -56,6 +58,7 @@ br{
 }
 
 #page_edu{
+    font-family: 'Bree Serif', serif;
     text-align: left;
     margin-left: 7%;
     font-size: 25px;
@@ -72,13 +75,7 @@ br{
 }
 
 #skill_detail{
+    font-family: 'Bree Serif', serif;
     font-size: 20px;
     display: block;
 }
-
-/*.right .box{
-    background-color: red;
-    height: 150px;
-    width: 30%;
-    margin-left: 50px;
-}*/
