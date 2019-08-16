@@ -14,6 +14,10 @@
     font-size: 30px;
 }
 
+.school_symbol{
+    float: left;
+}
+
 button{
     width: 120px;
     height: 35px;
@@ -27,14 +31,49 @@ button{
     border-radius: 10px;
 }
 
+b{
+    font-weight: 900;
+    color: #74b9ff;
+}
+
+br{
+    line-height: 150%;
+}
+
 #page{
     margin-left: 7%;
     font-size: 30px;
 }
 
+#page_lang{
+    text-align: left;
+    margin-left: 7%;
+    font-size: 28px;
+}
+
+#first_line{
+    font-size: 25px;
+}
+
+#page_edu{
+    text-align: left;
+    margin-left: 7%;
+    font-size: 25px;
+}
+
+#ielts{
+    opacity: 0.3;
+}
+
 #skill_icon{
+    display: inline-block;
     font-size: 150px;
     padding: 50px;
+}
+
+#skill_detail{
+    font-size: 20px;
+    display: block;
 }
 
 /*.right .box{
