@@ -17,11 +17,13 @@
 }
 
 #name{
+    font-family: 'Bree Serif', serif;
     margin-top: 8%;
     font-size: xx-large;
 }
 
 #info{
+    font-family: 'Bree Serif', serif;
     margin-top: 8%;
     color: #A5B5C4;
     font-size: 17px;

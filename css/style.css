@@ -7,7 +7,7 @@ html, body{
 }
 
 body {
-    background: #353B43;
+    background: linear-gradient(to right bottom, #353B43 35%, #34495e);
     position: relative;
     display: flex;
 }
