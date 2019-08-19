@@ -18,6 +18,10 @@
     margin-left: 7%;
 }
 
+.google_img{
+    width: 500px;
+}
+
 button{
     font-family: 'Pacifico', cursive;
     width: 120px;
@@ -41,9 +45,10 @@ br{
     line-height: 150%;
 }
 
-#page{
+#greeting{
+    text-align: left;
     margin-left: 7%;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #page_edu, #page_scholar, #page_lang{
@@ -68,8 +73,12 @@ br{
     opacity: 0.3;
 }
 
-#scholar_detail{
+#scholar_year, #scholar_detail{
     font-size: 20px;
+}
+
+#description{
+    opacity: 0.5;
 }
 
 #skill_icon{

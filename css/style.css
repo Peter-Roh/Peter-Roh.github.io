@@ -7,7 +7,9 @@ html, body{
 }
 
 body {
-    background: linear-gradient(to right bottom, #353B43 35%, #34495e);
+    height: 100vh;
+    background-color: #353B43;/*fallback*/
+    background: repeating-linear-gradient(180deg, #34495e, #353B43, #34495e);
     position: relative;
     display: flex;
 }
