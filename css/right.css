@@ -45,6 +45,11 @@ br{
     line-height: 150%;
 }
 
+#calendar{
+    position: absolute;
+    right: 0px;
+}
+
 #greeting{
     text-align: left;
     margin-left: 7%;
