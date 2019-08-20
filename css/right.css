@@ -16,6 +16,8 @@
 
 .school_symbol{
     margin-left: 7%;
+    padding-right: 30px;
+    padding-bottom: 25px;
 }
 
 .google_img{
@@ -45,15 +47,40 @@ br{
     line-height: 150%;
 }
 
+#type_board{
+    position: absolute;
+    right: 0px;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
 #calendar{
     position: absolute;
     right: 0px;
+    top: 200px;
 }
 
-#greeting{
+#likes{
+    position: absolute;
+    right: 360px;
+    top: 650px;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#likes_icon{
+    position: absolute;
+    top: 720px;
+    right: 0px;
+    font-size: 80px;
+}
+
+#main_page{
+    position: absolute;
     text-align: left;
     margin-left: 7%;
     font-size: 20px;
+    font-family: 'Bree Serif', serif;
 }
 
 #page_edu, #page_scholar, #page_lang{
@@ -74,8 +101,12 @@ br{
     font-size: 25px;
 }
 
-#ielts{
+#ielts, #ielts_year{
     opacity: 0.3;
+}
+
+#ielts_year{
+    font-size: 20px;
 }
 
 #scholar_year, #scholar_detail{

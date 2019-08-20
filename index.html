@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/43cd1e39a7.js"></script>
+    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
     <title>Min Chul Roh | Student at Korea University</title>
 </head>
 <body>
@@ -28,8 +30,35 @@
             <a href="info.html"><button>Info.</button></a>
         </div>
         <hr width="93%" align="right" size="1" color="white" ></hr>
-        <p id="greeting">Dear Visitors, thank you for visiting my website. </p>
+        <p id="main_page">Dear visitors, thank you for visiting my website.
+            <br><br>
+            I'm currently looking for work experience or internship. 
+            <br><br><br>
+        I am a student at Korea University majoring mathematics. I want to become a software <br>engineer in the future. 
+        </p>
+        <span id="type_board"></span>
+        <script>
+            var typing = document.getElementById('type_board');
+            var typewriter = new Typewriter(typing, {loop: true, wrapperClassName:'test'});
+            typewriter.typeString('Hi, I\'m Peter-Roh!')
+            .pauseFor(2500)
+            .deleteAll()
+            .typeString('I am currently interested in <br> Dr. Jordan B Peterson. ')
+            .pauseFor(2500)
+            .deleteAll()
+            .start();
+        </script>
         <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%234285F4&amp;ctz=Asia%2FSeoul&amp;src=bWluY2h1bC5yb2gucGV0ZXJAZ21haWwuY29t&amp;src=aTBscjgwYWt2OW12NWF0ZjNuMTg4ZDEwcGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=a28uc291dGhfa29yZWEjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23039BE5&amp;color=%23D81B60&amp;color=%230B8043&amp;showNav=1&amp;showTabs=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=1&amp;showDate=1&amp;showTitle=0" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+        <span id="likes">Things that I love</span>
+        <span id="likes_icon">
+            <i class="fas fa-coffee" title="coffee"></i>
+            <i class="fas fa-book" title="reading"></i>
+            <i class="fas fa-dumbbell" title="exercise"></i>
+            <i class="fas fa-brain" title="thinking"></i>
+            <i class="fas fa-walking" title="walking"></i>
+            <i class="fas fa-hands-helping" title="helping others"></i>
+            <br>
+        </span>
     </div>
 </body>
 </html>
