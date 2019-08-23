@@ -83,7 +83,7 @@ br{
     font-family: 'Bree Serif', serif;
 }
 
-#page_edu, #page_scholar, #page_lang{
+#page_edu, #page_scholar, #page_lang, #page_awards{
     font-family: 'Bree Serif', serif;
     text-align: left;
     margin-left: 7%;
@@ -109,7 +109,7 @@ br{
     font-size: 20px;
 }
 
-#scholar_year, #scholar_detail{
+#scholar_year, #scholar_detail, #award_year{
     font-size: 20px;
 }
 

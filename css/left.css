@@ -13,12 +13,12 @@
     width: 60%;
     border-radius: 55%;
     border: 3px solid #ffeaa7;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 #name{
     font-family: 'Bree Serif', serif;
-    margin-top: 8%;
+    margin-top: 7%;
     font-size: xx-large;
 }
 
@@ -31,12 +31,12 @@
 }
 
 #github{
-    margin-top: 8%;
+    margin-top: 10%;
     font-size: 4em;
 }
 
 #linked-in{
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 4em;
 }
 
