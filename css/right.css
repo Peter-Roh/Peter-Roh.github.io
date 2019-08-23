@@ -63,14 +63,14 @@ br{
 #likes{
     position: absolute;
     right: 360px;
-    top: 650px;
+    top: 700px;
     font-size: 35px;
     font-family: 'Kaushan Script', cursive;
 }
 
 #likes_icon{
     position: absolute;
-    top: 720px;
+    top: 780px;
     right: 0px;
     font-size: 80px;
 }
@@ -80,6 +80,7 @@ br{
     text-align: left;
     margin-left: 7%;
     font-size: 20px;
+    line-height: 120%;
     font-family: 'Bree Serif', serif;
 }
 
