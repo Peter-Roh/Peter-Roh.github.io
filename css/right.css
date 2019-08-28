@@ -60,6 +60,13 @@ br{
     top: 200px;
 }
 
+@media screen and (min-width: 300px) and (max-width:600px){
+    #calendar{
+        display: none;
+    }
+}
+
+
 #likes{
     position: absolute;
     right: 360px;
@@ -129,11 +136,4 @@ br{
     font-family: 'Bree Serif', serif;
     font-size: 20px;
     display: block;
-}
-
-@media screen and (max-width:480px){
-    #calendar{
-        display: none;
-    }
-
 }
