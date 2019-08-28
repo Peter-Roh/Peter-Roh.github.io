@@ -60,15 +60,9 @@ br{
     top: 200px;
 }
 
-@media screen and (min-width: 300px) and (max-width:1200px){
+@media screen and (min-width: 300px) and (max-width:600px){
     #calendar{
         display: none;
-    }
-    #main_page{
-        width: 90%;
-    }
-    #likes{
-        position: inline-block;
     }
 }
 
