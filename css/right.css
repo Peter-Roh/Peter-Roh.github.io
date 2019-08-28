@@ -79,6 +79,7 @@ br{
     position: absolute;
     text-align: left;
     margin-left: 7%;
+    margin-right: 620px;
     font-size: 20px;
     line-height: 120%;
     font-family: 'Bree Serif', serif;
@@ -128,4 +129,11 @@ br{
     font-family: 'Bree Serif', serif;
     font-size: 20px;
     display: block;
+}
+
+@media screen and (max-width:500px){
+    #calendar{
+        display: none;
+    }
+
 }
