@@ -6,6 +6,7 @@
     text-align: center;
     color: white;
     width: 80%;
+    line-height: 1.2;
 }
 
 .menu{
@@ -116,11 +117,11 @@ br{
     font-size: 25px;
 }
 
-#ielts, #ielts_year{
+#ielts, #ielts_year, #opic, #opic_year{
     opacity: 0.3;
 }
 
-#ielts_year{
+#ielts_year, #opic_year{
     font-size: 20px;
 }
 
