@@ -52,6 +52,10 @@ br{
     line-height: 150%;
 }
 
+#box__school{
+    display: flex;
+}
+
 #type_board{
     position: absolute;
     right: 0px;
@@ -99,10 +103,16 @@ br{
     font-family: 'Bree Serif', serif;
 }
 
-#page_edu, #page_scholar, #page_lang, #page_awards{
+#page_scholar, #page_lang, #page_awards{
     font-family: 'Bree Serif', serif;
     text-align: left;
     margin-left: 7%;
+    font-size: 25px;
+}
+
+#page_edu{
+    font-family: 'Bree Serif', serif;
+    text-align: left;
     font-size: 25px;
 }
 
