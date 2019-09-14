@@ -131,11 +131,7 @@ br{
     opacity: 0.3;
 }
 
-#ielts_year, #opic_year{
-    font-size: 20px;
-}
-
-#scholar_year, #scholar_detail, #award_year{
+#ielts_year, #opic_year, #scholar_year, #scholar_detail, #award_year{
     font-size: 20px;
 }
 
